@@ -21,6 +21,8 @@ while(isunk == false){
         }
         else{
             alert("Missed!")
+            alert("I've got you !!")
+            hits--;
         }
 
 
@@ -30,5 +32,5 @@ while(isunk == false){
         }
 
 }
-let stats = "you've took " +guesses+ "to sink the enemy's ship and your accuracy was " +(3/guesses);
+let stats = "you've took " +guesses+ " to sink the enemy's ship and your accuracy was " +(3/guesses);
 alert(stats);
